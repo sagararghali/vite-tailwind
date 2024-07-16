@@ -3,14 +3,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './Components/Navbar'
+import Login from './Components/Login'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar title="NavBar"/>
-    </>
+   
+    <Navbar title="NavBar"/>
+    <Login/>
+</>
   )
 }
 
