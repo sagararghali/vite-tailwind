@@ -8,11 +8,11 @@ export default function Navbar(props) {
     <div className=' text-green-400 p-6  font-bold '>{props.title}</div>
 
     <ul className='flex space-x-6 mt-6 mr-8 relative'>
-        <a href=""><li className='hover:text-red-400 hover:font-bold'>About</li></a>
-        <a href=""><li className='hover:text-red-400 hover:font-bold'>Home</li></a>
-        <a href=""><li className='hover:text-red-400 hover:font-bold'>Blogs</li></a>
-        <a href=""><li className='hover:text-red-400 hover:font-bold'>Contact</li></a>
-        <a href="login.jsx"><li className='hover:text-red-400 hover:font-bold'>Login</li></a>
+        <a href="about.jsx"><li className='hover:text-red-400 '>About</li></a>
+        <a href=""><li className='hover:text-red-400 '>Home</li></a>
+        <a href=""><li className='hover:text-red-400 '>Blogs</li></a>
+        <a href=""><li className='hover:text-red-400 '>Contact</li></a>
+        <a href="login.jsx"><li className='hover:text-red-400 '>Login</li></a>
     </ul>
     </div>
     <p>hiiii</p>
