@@ -13,12 +13,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <>    
+    <Navbar title="NavBar"/>
     <Router>
-    
-
        <Routes>
-       <Route path="/" element={<Navbar title="NavBar"/>}> </Route>
           <Route path="/login.jsx" element={<Login/>}> </Route>
         </Routes>
     </Router>
