@@ -15,7 +15,6 @@ export default function Navbar(props) {
         <a href="login.jsx"><li className='hover:text-red-400 '>Login</li></a>
     </ul>
     </div>
-    <p>hiiii</p>
     </>
   )
 }
