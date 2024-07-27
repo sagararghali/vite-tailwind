@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom';
 export default function App() {
   return (
     <>
-    <Navbar title="Navbar"/>
+    <div className='min-h-screen  bg-gray-200 '>
+    <Navbar title="Comic World"/>
+    </div>
     </>
   )
 }
