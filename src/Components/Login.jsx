@@ -4,12 +4,13 @@ export default function Login() {
   return (
 
 <>
-<section className='  mt-16' >
+<div className="">
+<section className=" ">
   <div
-    className="flex bg-white  items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-8"
-  >
+    className="flex  items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-8 "
+  >   
     
-    <div className=" border-2 border-gray-200 rounded-lg xl:mx-auto xl:w-full shadow-md p-4 xl:max-w-sm 2xl:max-w-md">
+    <div className="  bg-white mt-16 border-2 border-gray-200 rounded-lg xl:mx-auto xl:w-full shadow-md p-4 xl:max-w-sm 2xl:max-w-md">
       <div className="mb-2 flex justify-center font-bold text-xl"><p>-Welcome-</p></div>
       <h2 className="text-center text-2xl font-bold leading-tight text-black">
         Sign in to your account
@@ -17,7 +18,7 @@ export default function Login() {
       <p className="mt-2 text-center text-sm text-gray-600">
         Don't have an account? Create a free account
       </p>
-      <form className="mt-8" method="POST" action="#">
+      <htmlForm className="mt-8" method="POST" action="#">
         <div className="space-y-5">
           <div>
             <label className="text-base font-medium text-gray-900">
@@ -47,40 +48,40 @@ export default function Login() {
             </div>
             <div className='flex items-center justify-between'>
 
-            <div class="-ml-2.5">
-      <div class="inline-flex items-center">
+            <div className="-ml-2.5">
+      <div className="inline-flex items-center">
         <label
           data-ripple-dark="true"
-          for="checkbox"
-          class="relative flex cursor-pointer items-center rounded-full p-3"
+          htmlFor="checkbox"
+          className="relative flex cursor-pointer items-center rounded-full p-3"
         >
           <input
             id="checkbox"
-            class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-cyan-500 checked:bg-cyan-500 checked:before:bg-cyan-500 hover:before:opacity-10"
+            className="behtmlFore:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all behtmlFore:absolute behtmlFore:top-2/4 behtmlFore:left-2/4 behtmlFore:block behtmlFore:h-12 behtmlFore:w-12 behtmlFore:-translate-y-2/4 behtmlFore:-translate-x-2/4 behtmlFore:rounded-full behtmlFore:bg-blue-gray-500 behtmlFore:opacity-0 behtmlFore:transition-opacity checked:border-cyan-500 checked:bg-cyan-500 checked:behtmlFore:bg-cyan-500 hover:behtmlFore:opacity-10"
             type="checkbox"
           />
           <span
-            class="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-white opacity-0 transition-opacity peer-checked:opacity-100"
+            className="pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-white opacity-0 transition-opacity peer-checked:opacity-100"
           >
             <svg
-              stroke-width="1"
+              strokeWidth="1"
               stroke="currentColor"
               fill="currentColor"
               viewBox="0 0 20 20"
-              class="h-3.5 w-3.5"
+              className="h-3.5 w-3.5"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                clip-rule="evenodd"
+                clipRule="evenodd"
                 d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                fill-rule="evenodd"
+                fillRule="evenodd"
               ></path>
             </svg>
           </span>
         </label>
         <label
-          for="checkbox"
-          class="mt-px cursor-pointer select-none font-light text-gray-700"
+          htmlFor="checkbox"
+          className="mt-px cursor-pointer select-none font-light text-gray-700"
         >
           Remember Me
         </label>
@@ -105,10 +106,10 @@ export default function Login() {
             </button>
           </div>
         </div>
-      </form>
+      </htmlForm>
       <div className="mt-3 space-y-3">
       <button
-            class="flex border-2 border-gray-200 items-center justify-center py-2 px-20 bg-white hover:bg-gray-200 focus:ring-blue-500 focus:ring-offset-blue-200 text-gray-700 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
+            className="flex border-2 border-gray-200 items-center justify-center py-2 px-20 bg-white hover:bg-gray-200 focus:ring-blue-500 focus:ring-offset-blue-200 text-gray-700 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
           >
             <svg
               viewBox="0 0 24 24"
@@ -158,8 +159,8 @@ export default function Login() {
                 x1="0"
                 id="LxT-gk5MfRc1Gl_4XsNKba_xoyhGXWmHnqX_gr1"
               >
-                <stop stop-opacity=".2" stop-color="#fff" offset="0"></stop>
-                <stop stop-opacity="0" stop-color="#fff" offset="1"></stop>
+                <stop stopOpacity=".2" stopColor="#fff" offset="0"></stop>
+                <stop stopOpacity="0" stopColor="#fff" offset="1"></stop>
               </linearGradient>
               <path
                 d="M23.7352295,9.5H12v5h6.4862061C17.4775391,17.121582,14.9771729,19,12,19 c-3.8659668,0-7-3.1340332-7-7c0-3.8660278,3.1340332-7,7-7c1.4018555,0,2.6939087,0.4306641,3.7885132,1.140686 c0.1675415,0.1088867,0.3403931,0.2111206,0.4978027,0.333374l3.637146-3.4699707L19.8414307,2.940979 C17.7369385,1.1170654,15.00354,0,12,0C5.3725586,0,0,5.3725586,0,12c0,6.6273804,5.3725586,12,12,12 c6.1176758,0,11.1554565-4.5812378,11.8960571-10.4981689C23.9585571,13.0101929,24,12.508667,24,12 C24,11.1421509,23.906311,10.3068237,23.7352295,9.5z"
@@ -175,12 +176,13 @@ export default function Login() {
                 fill="#FFF"
               ></path>
             </svg>
-            <span class="">Sign in with Google</span>
+            <span className="">Sign in with Google</span>
           </button>
       </div>
     </div>
   </div>
 </section>
+</div>
 
 </>
 
