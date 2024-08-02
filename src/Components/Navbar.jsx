@@ -4,8 +4,10 @@ import Sidebar from './Sidebar';
 export default function Navbar(props) {
   return (
   <>
-    <div className='bg-gray-500 bg-opacity-70 rounded-lg flex item-center justify-between'>
-    <div className=" text-green-400 p-6  font-bold text-2xl mr-[200px]">{props.title}</div>
+
+  
+    <div className='bg-gradient-to-r from-purple-400 via-gray-500  to-red-500 rounded-lg flex item-center justify-between'>
+    <div className=" text-green-300 p-6  font-bold text-2xl mr-[200px]">{props.title}</div>
     <div className='flex justify-evenly '>
     <ul className=' text-orange-200  space-x-12 mt-6 mr-10 relative hidden md:flex '>
        <Link to="homepage"> <li className='hover:text-red-400  hover:underline text-lg'>Home</li></Link>
