@@ -1,10 +1,15 @@
 // ./src/components/About.jsx
 import React from 'react';
 import Timeline from './Timeline';
+import Navbar from './Navbar';
 const About = () => {
   return (
     <>
-    <div className="min-h-screen bg-gray-100 p-8 min-h-screen  bg-cover bg-center bg-[url('.jpg')]">
+      
+    <div className=' bg-center'>
+    <Navbar/>
+    </div>
+    <div className=" bg-gray-100 p-8    bg-center bg-[url('.jpg')]">
       <div className="max-w-4xl mx-auto bg-white  shadow-md rounded-lg p-6">
         <h1 className="text-4xl font-bold text-center mb-8">About Us</h1>
         <div className="text-gray-700 space-y-4">
@@ -45,7 +50,7 @@ const About = () => {
       </div>
     </div>
     <Timeline/>
-    </>
+  </>
   );
 };
 
