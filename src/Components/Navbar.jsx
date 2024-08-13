@@ -8,12 +8,11 @@ export default function Navbar(props) {
     <div className=" text-green-300 p-6  font-bold text-3xl mr-[200px]">{props.title}</div>
     <div className='flex justify-evenly '>
     <ul className=' text-orange-200  space-x-12 mt-6 mr-10 relative hidden md:flex '>
-       <Link to="homepage"> <li className='hover:text-red-400  hover:underline text-lg'>Home</li></Link>
+       <Link to="/"> <li className='hover:text-red-400  hover:underline text-lg'>Home</li></Link>
         <Link to="aboutpage"><li className='hover:text-red-400 hover:underline  text-lg'>About</li></Link>
         <Link to="blogspage"><li className='hover:text-red-400 hover:underline text-lg'>Blogs</li></Link>
        <Link to="contactpage"> <li className='hover:text-red-400 hover:underline text-lg'>Contact</li></Link>
        <Link to="servicespage"> <li className='hover:text-red-400 hover:underline text-lg'>Services</li></Link>
-
     </ul>
     </div>
     <div className='flex space-x-3'>
