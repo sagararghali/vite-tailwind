@@ -7,7 +7,7 @@ export default function Login() {
 <div className="">
 <section className=" ">
   <div
-    className="flex  items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-8 "
+    className="flex min-h-screen bg-gray-400 items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-8 "
   >   
     
     <div className="  bg-white mt-16 border-2 border-gray-200 rounded-lg xl:mx-auto xl:w-full shadow-md p-4 xl:max-w-sm 2xl:max-w-md">
